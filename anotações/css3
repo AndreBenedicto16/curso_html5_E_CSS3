@@ -1,0 +1,107 @@
+O QUE É CSS E PARA OQUE USAMOS:  É uma folha de estilos, usada para dar estilo ao HTML
+
+
+-------MARGIN PX, EM-------------------------------
+
+na tag MARGIN pode ser usado com o valor o PX ou EM
+ex: PX= PIXEL  EM= TAMANHO DA FONTE
+10px, 2em(2 vezes o tamanho da fonte)
+(PX e EM podem ser usados em qualquer tag para modificar o tamanho)
+
+margin: 12px  14px  12px    14px;
+	top   right bottom  left
+	
+-----POR IMAGEM-------
+
+background: url("imagens.produtos/bg.jpg");
+
+
+-------PARA DEIXAR O TEXTO EM NEGRITO---------------
+
+font-weight: bold;
+
+
+-------PARA MODIFICAR O TAMANHO DA FONTE-------------
+
+font-size:;
+
+
+-------PARA MODIFICAR O ESTILO DA FONTE-------------
+
+font-style:;
+
+
+-------PARA DAR ESPAÇO INTERNO---------------------
+
+padding:;
+
+-------PARA ALINHAR O TEXTO---------------------------
+
+text-align:;
+
+
+-------MUDAR O TAMANHO DE UM ELEMENTO, FAZENDO ELE OCUPAR UMA PARTE DA PAGINA-------
+
+width:;
+
+
+-------PARA DAR COR AO FUNDO-----------
+
+background:;
+ 
+
+-------PARA DAR COR A FONTE DA LETRA-----------
+ 
+ COLOR:;
+ 
+ 
+-------PARA FAZER UM DEGRADE NO FUNDO DA PAGINA-----------
+ 
+background: linear-gradient(#FEFEFE, #888888);
+COR DE FUNDO	DEGRADE    DO BRANCO  P   CINZA
+
+
+-------PARA APLICAR UMA SOMBRA-------------
+
+box-shadow: 10px 10px 10px #000000;
+
+sig: 10px       10px           10px      #000000;
+     lados - cima e baixo - intensidade  - cor
+
+
+-------PARA DAR OPACIDADE AO ELEMENTO---------
+opacity:;
+
+
+-------FAZER ALGO NO ELEMENTO QUANDO O MOUSE PASSAR EM CIMA OU AO CLICAR-------
+
+PASSAR EM CIMA: hover
+AO CLICAR: active
+
+COMO USAMOS
+
+ex: h2:hover
+
+------FAZER QUE UM ELEMENTO OCUPE A LINHA TODA(para um elemento ficar em baixo do outro)-------
+
+display: block;
+
+
+------SITE RESPONSIVO--------------
+
+NO HTML:
+<meta name="viewport" content="width=380,initial-scale=1">  (precisa ser colocado em todas paginas do site)
+
+NO CSS:
+@media only screen and (max-device-width: 900px) {
+}
+
+-Dentro dela colocamos as tags, class, id... Que queremos usala
+ex:
+
+@media only screen and (max-device-width: 900px) {
+.titulo-principal {
+		text-align: center;
+		font-size: 25px;
+	}
+}

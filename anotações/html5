@@ -1,0 +1,40 @@
+O QUE É HTML E PARA O QUE USAMOS: É uma linguagem de marcação de texto através das TAGs, usamos para desenvolver sites
+
+
+-------PRINCIPAIS TAGS PARA PODEMOS COMEÇAR O DESENVOLVIMENTO----------
+
+<!DOCTYPE html> Para indicar qual versao do html esta sendo usado(quando ta so html é porque esta sendo usado a ultima versao)
+
+<html lang="pt-br"> Aqui esse lang="pt-br" é para indicamos o idioma usado e a tag html abre no começo e fecha somente no final
+
+<head>
+Aqui colocamos informaçoes para o navegador e ele nao deixa a vista no site, algumas informaçoes(tags) como:
+link de um codigo css, <meta charset="UTF-8">(qual linguagem estamos usando para acentuaçao e caracteristicas especiais)
+<head>
+
+<body>
+Tudo colocado aqui entre textos(p), diviçoes(div), sessoes(section), cabeçarios(header), menu de navegaçao(nav), rodapé(footer),
+ titulos(h1, h2, h3... h6)  o conteudo aparesera no site as tags nao apareceram 
+<body>
+</html>
+
+
+-------OUTRAS TAGS------------
+
+----PARA POR UMA IMAGEM----
+
+- <img src="endereço da imagem" alt="Caso nao carregue a imagem aparece um texto escrito aqui"> 
+
+
+----PARA POR UM MAPA----
+
+- <iframe src="ENDEREÇO DO MAPA"(SO IR NO GOOGLE MAPS"><iframe> MESMA COISA PRA POR VIDEO
+
+
+----TAG MAIN----
+
+- Tag main é onde vai o conteúdo principal da pagina, tag main fica dento da tag body
+
+
+----
+
